@@ -24,8 +24,8 @@ from torch.autograd import Variable
 
 
 from gradient_penalty import calc_gradient_penalty
-import models.dcgan as dcgan
-import models.mlp as mlp
+from dcgan import dcgan
+from mlp import mlp
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', required=True, help='cifar10 | lsun | imagenet | folder | lfw ')
