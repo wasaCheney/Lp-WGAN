@@ -6,3 +6,6 @@
 
 ## Usage
 - Type `bash run_negative.sh` in console and then Enter.
+
+## Citation
+- For more information, please check our paper [Lp-WGAN](https://doi.org/10.1016/j.knosys.2018.08.004.)
